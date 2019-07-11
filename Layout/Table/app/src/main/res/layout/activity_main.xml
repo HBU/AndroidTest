@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1,2"
+            android:gravity="center">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="#e2a617"
+                    android:text="文件管理"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="#0d637f"
+                    android:text="应用商店"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="#aa2266"
+                    android:text="文件管理"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="#45e15f"
+                    android:text="应用管理"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="5dp"
+                    android:background="#3924a4"
+                    android:text="应用中心"
+                    android:gravity="center"
+                    android:layout_span="2"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#f5f5f5"
+        android:stretchColumns="0,1,2,3"
+        android:gravity="center_vertical">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="首页" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="消息" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="发现" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="我" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
