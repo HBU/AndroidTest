@@ -1,5 +1,5 @@
 - OS：Windows 10
-- IDE：Android Studio 3.4.1
+- IDE：Android Studio 3.4.2
 - Gradle 5.1.1
 
 
