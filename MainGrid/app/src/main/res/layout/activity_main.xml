@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer = "true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000"
+                android:text="移动终端软件开发综合实验" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000"
+                android:text="2019" />
+
+    <Button
+        android:id="@+id/buttonCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="01.Calculator：计算器" />
+
+    <Button
+        android:id="@+id/buttonLifeCycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="02.Life-Cycle：Activity生命周期" />
+
+    <Button
+        android:id="@+id/buttonIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="03.Intent：界面跳转" />
+
+    <Button
+        android:id="@+id/buttonDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="04.Dialog：对话框" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="05.Menu：菜单" />
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="06.Toast：吐司（提示）" />
+
+    <Button
+        android:id="@+id/buttonNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="07.Notification：通知栏" />
+
+    <Button
+        android:id="@+id/buttonListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="08.ListView：列表" />
+
+            <Button
+                android:id="@+id/buttonServiceLifeCycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="09.Service 1：服务生命周期 " />
+
+
+
+            <Button
+                android:id="@+id/buttonServiceBindDemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="10.Service 2：绑定服务" />
+
+            <Button
+                android:id="@+id/buttonServiceLocal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="11.Service 3：本地服务(音乐播放器)" />
+            <Button
+        android:id="@+id/buttonBroadcast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="12.Broadcast-1：广播的生命周期" />
+
+    <Button
+        android:id="@+id/buttonBroadcast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="13.Broadcast-2：响应“电量变化”广播(系统广播)" />
+
+    <Button
+        android:id="@+id/buttonSharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="14.Shared-Preferences：共享参数" />
+
+    <Button
+        android:id="@+id/buttonDatabaseSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="15.Database-SQLite：本地数据库" />
+
+    <Button
+        android:id="@+id/buttonContentProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="16.Content-Provider：内容提供器(读本地电话簿)" />
+
+    <Button
+        android:id="@+id/buttonWeatherJSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="17.Weather-JSON：访问网络服务器" />
+
+    <Button
+        android:id="@+id/buttonThreadUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="18.Thread-Update-UI：子线程异步更新UI" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

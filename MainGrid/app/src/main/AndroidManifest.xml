@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.hbu.cs.maingrid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CalculatorActivity" />
+        <activity android:name=".LifeCycle1" />
+        <activity android:name=".LifeCycle2" />
+        <activity android:name=".LifeCycle3" />
+        <activity android:name=".Intent1" />
+        <activity android:name=".Intent2" />
+        <activity android:name=".Intent3" />
+        <activity android:name=".Intent4" />
+        <activity android:name=".Intent5" />
+        <activity android:name=".DialogMain" />
+        <activity android:name=".DialogRadioButton" />
+        <activity android:name=".DialogMy" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ListMain" />
+        <activity android:name=".ServiceLifeCycle" />
+        <activity android:name=".ServiceBindDemo" />
+        <activity android:name=".ServiceLocalPlayMusic" />
+        <activity android:name=".BroadcastLifeCycleMain" />
+        <activity android:name=".BroadcastBattery" />
+        <activity android:name=".SharedPreferencesDemo" />
+        <activity android:name=".DatabaseMain" />
+        <activity android:name=".ContentProviderDemo" />
+        <activity android:name=".JsonDemo" />
+        <activity android:name=".ThreadDemo" />
+        <receiver
+            android:name=".BroadcastReceiverLifeCycle"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter >
+                <action android:name="cn.hbu.cs.maingrid"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ServiceBind"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".ServiceLife"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".ServiceLocalMusic"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.hbu.cs.maingrid.ServiceLocalMusic" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

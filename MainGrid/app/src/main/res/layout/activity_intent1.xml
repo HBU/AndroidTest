@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent 的使用"
+        android:gravity="center_horizontal"
+        android:textSize="50dp"/>
+
+    <Button
+        android:text="打电话"
+        android:id="@+id/myCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="发短信"
+        android:id="@+id/myMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="打开浏览器"
+        android:id="@+id/myBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="拍照"
+        android:id="@+id/myPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="设置"
+        android:id="@+id/mySetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="转到桌面"
+        android:id="@+id/myDesktop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="打开另一个Activity（显式，不带参数）"
+        android:id="@+id/myOtherActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="打开另一个Activity（隐式）"
+        android:id="@+id/myOtherActivity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="带参数打开另一个Activity"
+        android:id="@+id/myOtherActivityParameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:text="带返回值打开另一个Activity"
+        android:id="@+id/myOtherActivityReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="Return ..."
+        android:id="@+id/myReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
