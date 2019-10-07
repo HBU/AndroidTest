@@ -26,7 +26,7 @@ public class ContentProviderDemo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_provider);
-        ListView contactsView = (ListView) findViewById(R.id.contacts_view);
+        ListView contactsView =  findViewById(R.id.contacts_view);
         adapter = new ArrayAdapter<String>(this, android.R.layout. simple_list_item_1, contactsList);
         contactsView.setAdapter(adapter);
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {

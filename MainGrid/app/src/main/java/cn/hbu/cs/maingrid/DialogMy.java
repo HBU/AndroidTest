@@ -24,7 +24,7 @@ public class DialogMy extends Dialog {
     @Override
     protected void onCreate(Bundle savedInstanceState){ //Bundle savedInstanceState
         super.onCreate(savedInstanceState);
-        Button mConfirm= (Button) findViewById(R.id.button666);
+        Button mConfirm=  findViewById(R.id.button666);
         //设置事件
         mConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
