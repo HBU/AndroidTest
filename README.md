@@ -1,3 +1,3 @@
 # AndroidTest
 
-Layout 布局测试代码
+测试代码
