@@ -29,7 +29,7 @@
                 android:textAlignment="center"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#000"
-                android:text="2019" />
+                android:text="2020" />
 
     <Button
         android:id="@+id/buttonCalculator"
